@@ -10,7 +10,7 @@ endif
 
 all:	bin/$(TARGET_DIR) bin/$(TARGET_DIR)/zap bin/$(TARGET_DIR)/zapd
 
-CFLAGS= -O2 -m32 -static
+CFLAGS= -O2
 CC=	$(TOOLPREFIX)gcc $(CFLAGS)
 
 bin/$(TARGET_DIR):
